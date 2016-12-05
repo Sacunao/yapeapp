@@ -1,4 +1,4 @@
-var txtEmail = documennt.getElementById("email");
+var txtEmail = document.getElementById("email");
 var txtPassword = document.getElementById("password");
 var btnLogin = document.getElementById("login");
 
@@ -6,7 +6,12 @@ btnLogin.addEventListener("click", function(e){
     e.preventDefault;
     var email = txtEmail.value;
     var pass = txtPassword.value;
-    auth().signInWithEmailAndPassword(email,password)
+    console.log("hola", pass);
+    
+     firebase.auth().signInWithEmailAndPassword(email,pass)
+            .then(function(e){
+                window.location.href = "/index.html";
+            })
           .catch(function(error){
                   // Handle Errors here.
                   var errorCode = error.code;
