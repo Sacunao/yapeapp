@@ -1,0 +1,29 @@
+{
+  "name": "yape",
+  "version": "1.0.0",
+  "description": "app de banco bcp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sacunao/yapeapp.git"
+  },
+  "keywords": [
+    "app",
+    "js",
+    "materialize",
+    "json"
+  ],
+  "author": "yapecoders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sacunao/yapeapp/issues"
+  },
+  "homepage": "https://github.com/Sacunao/yapeapp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
