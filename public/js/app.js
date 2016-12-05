@@ -1,9 +1,17 @@
-firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-  // Handle Errors here.
-  var errorCode = error.code;
-  var errorMessage = error.message;
-  // ...
+var email = documennt.getElementById("email");
+var password = document.getElementById("password");
+var btnLogin = document.getElementById("login");
+
+btnLogin.addEventListener("click", function(e){
+    e.preventDefault;
+    
 });
+//firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+//  // Handle Errors here.
+//  var errorCode = error.code;
+//  var errorMessage = error.message;
+//  // ...
+//});
 
 
 
