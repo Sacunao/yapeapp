@@ -1,0 +1,9 @@
+[
+    {
+        "senderName" : "name",
+        "receiver" : "id",
+        "amount" : "S/.4.00",
+        "message" : "",
+        "date": "",
+    }
+]
