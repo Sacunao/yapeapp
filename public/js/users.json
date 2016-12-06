@@ -1,41 +1,39 @@
 [
     {
-        "id" : "1"
-        "name" : "Sheila Acuña",
-        "phone" : "986363622",
-        "isUser" : true,
-        "card" : {
-            "last4" : "5647",
-            "owner" : "Sheila Acuña",
-            "saldo" : "20.00"
+        "id":"1",
+        "name":"Sheila Acuña",
+        "phone":"986363622",
+        "isUser":true,
+        "card":{
+            "last4":"5647",
+            "owner":"Sheila Acuña",
+            "saldo":"20.00"
         },
-        "password" : "pas128"        
+        "password":"pas128"        
     },
-    
     {
-        "id" : "2"
-        "name" : "Sammia Lab",
-        "phone" : "985444555",
-        "isUser" : false,
-        "card" : {
-            "last4" : "5567",
-            "owner" : "Sammia Lab",
-            "saldo" : "80.00"
+        "id":"2",
+        "name":"Sammia Lab",
+        "phone":"985444555",
+        "isUser":false,
+        "card":{
+            "last4":"5567",
+            "owner":"Sammia Lab",
+            "saldo":"80.00"
         },
-        "password" : "pa2345"  
+        "password":"pa2345"  
     },
-    
     {
-        "id" : "3"
-        "name" : "Evelyn F.",
-        "phone" : "984333222",
-         "isUser" : false,
-        "card" : {
-            "last4" : "3452",
-            "owner" : "Evelyn F.",
-            "saldo" : "30.00"
+        "id":"3",
+        "name":"Evelyn F.",
+        "phone":"984333222",
+         "isUser":false,
+        "card":{
+            "last4":"3452",
+            "owner":"Evelyn F.",
+            "saldo":"30.00"
         },
-        "password" : "p22425"  
+        "password":"p22425"  
     }
 ]
 
