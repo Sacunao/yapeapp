@@ -1,0 +1,6 @@
+var today = new Date();
+// What happens next depends on whether you want UTC or locale time...
+// assuming locale time in this example...
+$('#time').html( today.getHours() + ':' + today.getMinutes());
+$('#weekday').html(today.toDateString().substring(0,3));
+$('#date').html( today.toDateString() );
