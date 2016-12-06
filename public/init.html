@@ -1,36 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+<DOCTYPE html>
+<html>
   <head>
-  	<meta charset="UTF-8">
-  	<title>Yape</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Yape</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/init.css">
   </head>
-  <body class="darkpurple">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 center-align">
-          <img src="user.png">
+  <body>
+    <section class="lightpurple">
+      <div class="container">
+        <div class="wrapper center-align white-text">
+            <img src="user.jpeg" class="circle user">
+            <h4>Hola</h4>
+             <span><i class="material-icons eye">remove_red_eye</i>&nbsp; &nbsp;<a href="#" class="show">MOSTRAR SALDO</a></span>
         </div>
       </div>
+    </section>
+    <section class="darkpurple white-text">
+      <div class="row" id="contenedor">
+          <div class="card contiene col s12">
+        <div class="col s11">
+          <p><b>ÚLTIMOS MOVIMIENTOS</b></p>
+          </div>
+        
+          <div class="col s1 right-align">
+            <i class="material-icons middle-icon">chevron_right</i>
+        </div>
+        </div>
+        <div class="contiene col s12">
+        <div class="col s8">
+          <p>{{NOMBRE Y APELLIDO}}</p>
+          </div>
+        <div class="col s3 center-align">
+          <div class="row small">
+            <p>S/.0.10</p>
+          </div>
+          <div class="row small">
+            <p>11:42 AM</p>
+          </div>
+        </div>
+          <div class="col s1 right-align">
+            <a href="#"><i class="material-icons middle-icon">chevron_right</i></a>
+        </div>
+        </div>
+        <div class="contiene col s12">
+        <div class="col s8">
+          <p>{{NOMBRE Y APELLIDO}}</p>
+          </div>
+        <div class="col s3 center-align">
+          <div class="row small">
+            <p>S/.0.10</p>
+          </div>
+          <div class="row small">
+            <p>11:42 AM</p>
+          </div>
+        </div>      
+          <div class="col s1 right-align">
+            <a href="#"><i class="material-icons middle-icon">chevron_right</i></a>
+        </div>
+        </div>
+        <div class="contiene col s12 center-align lemarg">
+        <div class="col s6 ">
+          <a class="btn-floating btn-large waves-effect waves-light waves-amar btns">SOLICITAR</a>
+          </div>
+        <div class="col s6 ">
+          <a class="btn-floating btn-large waves-effect waves-light waves-amar btns">PAGAR</a>
+        </div>      
+      </div>
     </div>
-  	
-  	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
-  	<script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyAfK9iza7OO-H_rglgCOj6XJtY9Aqv1Hso",
-          authDomain: "yapedemo.firebaseapp.com",
-          databaseURL: "https://yapedemo.firebaseio.com",
-          storageBucket: "",
-          messagingSenderId: "805473058962"
-        };
-        firebase.initializeApp(config);
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    </section>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"
+      crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   </body>
 </html>

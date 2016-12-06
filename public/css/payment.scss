@@ -1,13 +1,14 @@
 @import "_variables";
 @import "_mixis";
 
+
 .darkpurple{
 	background-color: $color-dark-purple;
+	height: 400em;
 }
 
 .lightpurple{
 	background-color: $color-light-purple;
-	padding: 2em 0;
 }
 
 .base{
@@ -19,8 +20,8 @@ a.show{
 	text-decoration: none;
 }
 .user{
-	width: 110px;
-	height: 110px;
+	width: 120px;
+	height: 120px;
 }
 
 .card-content{
@@ -34,16 +35,6 @@ a.show{
 .middle-icon{
 	margin-top: 10px;
 	text-align: right;
-	color: $color-green;
-}
-
-nav.lightpurple{
-	background-color: $color-light-purple;
-}
-
-.small{
-	line-height: 0px;
-	font-size: 12px;
 }
 
 .btns{
@@ -57,7 +48,7 @@ nav.lightpurple{
 }
 
 a.btns{
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 .lemarg{
