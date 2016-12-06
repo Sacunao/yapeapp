@@ -1,26 +1,31 @@
 $(document).ready(function(){
-    var userName = $("#nameUser");
-    var monto = $("#monto");
-    var mensaje = $("mensaje");
+    var userName = $("#nameUser").val();
+    var amount = $("#monto").val();
+    var message = $("#mensaje").val();
+//    var btnrequest = $("#btnrequest");
     
-    console.log(transfer(nameUser, monto, mensaje));
- 
-    function transfer(username, monto, mensaje) {
-    // A post entry.
-    var postData = {
-        username: username,
-        monto: monto,
-        mensaje: mensaje
-    };
+    $("#btnrequest").click(function (userName, amount, message) {
+        // A post entry.
+        var postData = {
+            username: userName,
+            monto: amount,
+            mensaje: message
+        };
 
-    // Get a key for a new Post.
-    var newPostKey = firebase.database().ref().child('tranfers').push().key;
+        // Get a key for a new Post.
+        var newPostKey = firebase.database().ref().child('transfer').push().key;
 
-    // Write the new post's data simultaneously in the posts list and the user's post list.
-    var updates = {};
-    updates['/tranfers/' + newPostKey] = postData;
-    updates['/transfer/' + uid + '/' + newPostKey] = postData;
-
-    return firebase.database().ref().update(updates);
-    } 
-}
+        // Write the new post's data simultaneously in the posts list and the user's post list.
+        var updates = {};
+        updates['/transfer/' + newPostKey] = postData;
+        updates['/transfer/' + "user1" + '/' + newPostKey] = postData;
+        return firebase.database().ref().update(updates);
+        
+         console.log("userName");
+        
+    }); 
+    
+   
+    
+    
+});
