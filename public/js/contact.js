@@ -17,6 +17,7 @@ $(document).ready(function(){
     var users = firebase.database().ref('users/');
     
     users.on('value', function(response) {
+        console.log(response);
     var data = response.val();
     var la = $("#la");
     var contenedorData = "";
@@ -26,13 +27,22 @@ $(document).ready(function(){
                      .replace("{{name}}", user.name)                   
                      .replace("{{phone}}", user.phone);
             
-        });
+        })
         la.html(contenedorData);
 
-        $(".contactos").click(function() {
+
+        $(".contactos").on("click", function(e) {
+
+            // var users = firebase.database().ref('users/'); var nombreUrl =
+            // users.name; localStorage.setItem("user", nombreUrl);
+            // users.on('value', function(response) {         myDataGroup =
+            // response.val();                 myDataStore (myDataGroup);
+            });
+
              window.location.href = "/payment.html";
+            });
         });
- 
+
+
     });
      
-});
