@@ -1,3 +1,4 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 header {
   background-color: #38052a;
   margin: 0; }
@@ -8,13 +9,25 @@ header {
     margin: 0%; }
 
 .listado ul {
-  margin: 0%; }
+  margin: 5% 0% 0% 0%; }
+.listado .icono-next {
+  margin-top: 15px; }
 
-.busqueda {
-  background-color: #e6e7e8; }
-  .busqueda input {
-    background: url(../img/search.png) no-repeat;
-    background-position: left;
-    background-size: 10%; }
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 20px; }
+
+.search input {
+  height: 3em;
+  background: #fcfcfc;
+  border-bottom: none;
+  text-indent: 3.5em;
+  font-size: 20px; }
+
+.search .fa-search {
+  position: absolute;
+  top: 1em;
+  left: 1.5em; }
 
 /*# sourceMappingURL=contact.css.map */
