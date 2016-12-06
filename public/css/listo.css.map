@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,MAAM;EACL,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,IAAI",
+"sources": ["listo.scss"],
+"names": [],
+"file": "listo.css"
+}
