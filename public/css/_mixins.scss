@@ -1,0 +1,22 @@
+@mixin fuente ($color, $size, $family, $weight){
+	font-family: $family;
+	font-size: $size;
+	color: $color;
+	font-weight: $weight;
+}
+
+@mixin boton($bg-color, $color, $radio, $width, $height){
+	background-color: $bg-color;
+	color: $color;
+	border-radius: $radio;
+	width: $width;
+	height: $height; 
+}
+
+@mixin circulo($width, $height, $bg-color, $color, $radio){
+	width: $width;
+	height: $height;
+	border-radius: $radio;
+	background-color: $bg-color;
+	color: $color;
+}
