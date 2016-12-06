@@ -1,30 +1,20 @@
-/*
-Error: Invalid CSS after "...ort "variables"": expected selector or at-rule, was "@import "mixins""
-        on line 2 of confirmacion.scss
+body {
+  background-color: #00c3a3; }
 
-1: @import "variables"
-2: @import "mixins"
+#modal1 {
+  border-radius: 10px;
+  padding: 0 0 20px 0; }
+  #modal1 section {
+    width: 100%;
+    height: 100px;
+    background-color: #fbd43b;
+    position: relative; }
+  #modal1 .img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: blue;
+    color: #fff; }
 
-Backtrace:
-confirmacion.scss:2
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ort \"variables\"\": expected selector or at-rule, was \"@import \"mixins\"\"\A         on line 2 of confirmacion.scss\A \A 1: @import \"variables\"\A 2: @import \"mixins\""; }
+/*# sourceMappingURL=confirmacion.css.map */
