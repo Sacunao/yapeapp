@@ -11,7 +11,7 @@ header {
 .listado ul {
   margin: 5% 0% 0% 0%; }
 .listado .icono-next {
-  margin-top: 15px; }
+  margin-top: 25px; }
 
 .search {
   position: relative;
@@ -29,5 +29,8 @@ header {
   position: absolute;
   top: 1em;
   left: 1.5em; }
+
+.material-icons {
+  margin-top: 1em; }
 
 /*# sourceMappingURL=contact.css.map */
