@@ -1,49 +1,50 @@
 .darkpurple {
-  background-color: #38052a; }
+  background-color: #38052a;
+  padding: 2em 0; }
 
 .lightpurple {
   background-color: #451e36;
-  padding: 2em 0; }
+  padding-bottom: 1.8em; }
 
-.base {
-  margin-top: 3em; }
+.contiene {
+  margin: 0px !important; }
 
-a.show {
-  color: #FFF;
-  text-decoration: none; }
+hr.style {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #000 inset; }
 
-.user {
+.show {
+  color: #00c3a3;
+  text-decoration: none;
+  line-height: 10px; }
+
+.eye {
+  position: absolute;
+  color: #00c3a3;
+  margin: -2px -25px; }
+
+.ussser {
   width: 110px;
   height: 110px; }
-
-.card-content {
-  padding-bottom: 3em; }
-
-.card {
-  background-color: #38052a !important; }
 
 .middle-icon {
   margin-top: 10px;
   text-align: right;
   color: #00c3a3; }
 
-nav.lightpurple {
-  background-color: #451e36; }
-
 .small {
   line-height: 0px;
   font-size: 12px; }
 
 .btns {
+  font-size: 1.3em;
+  box-shadow: 1px 3px 1px #38052a; }
+
+.waves-effect.waves-amar {
   background-color: #fbd43b;
   width: 8em !important;
   border-radius: 50px !important; }
-
-.waves-effect.waves-amar {
-  background-color: #fbd43b; }
-
-a.btns {
-  font-size: 1.3em; }
 
 .lemarg {
   margin: 1.5em 0; }
