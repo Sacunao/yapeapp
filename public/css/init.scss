@@ -1,0 +1,65 @@
+@import "_variables";
+@import "_mixis";
+
+.darkpurple{
+	background-color: $color-dark-purple;
+}
+
+.lightpurple{
+	background-color: $color-light-purple;
+	padding: 2em 0;
+}
+
+.base{
+	margin-top: 3em;
+}
+
+a.show{
+	color: #FFF;
+	text-decoration: none;
+}
+.user{
+	width: 110px;
+	height: 110px;
+}
+
+.card-content{
+	padding-bottom: 3em;
+}
+
+.card{
+	background-color: $color-dark-purple !important;
+}
+
+.middle-icon{
+	margin-top: 10px;
+	text-align: right;
+	color: $color-green;
+}
+
+nav.lightpurple{
+	background-color: $color-light-purple;
+}
+
+.small{
+	line-height: 0px;
+	font-size: 12px;
+}
+
+.btns{
+	background-color: $color-yellow;
+	width: 8em !important;
+	border-radius: 50px !important;
+}
+
+.waves-effect.waves-amar{
+  background-color: $color-yellow;
+}
+
+a.btns{
+	font-size: 1.3em;
+}
+
+.lemarg{
+	margin: 1.5em 0;
+}

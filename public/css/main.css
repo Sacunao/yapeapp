@@ -1,0 +1,21 @@
+/*login*/
+body {
+	background: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+}
+
+section{
+	height: 100vh;
+}
+
+.d-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn{
+	display: inherit;
+}

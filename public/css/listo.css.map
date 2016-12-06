@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAGA,MAAM;EACL,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,IAAI",
-"sources": ["listo.scss"],
+"mappings": "AAGA,MAAM;EACL,gBAAgB,ECGE,OAAO;EDFzB,MAAM,EAAE,EAAE;EACV,SAAE;IACD,KAAK,ECIO,IAAI;IDHhB,UAAU,EAAE,MAAM;IAClB,OAAO,EAAE,EAAE;IACX,MAAM,EAAE,EAAE;;AAGZ,WAAW;EACV,UAAU,EAAE,MAAM;EAClB,kBAAM;IACL,SAAS,EAAE,IAAI",
+"sources": ["listo.scss","_variables.scss"],
 "names": [],
 "file": "listo.css"
 }

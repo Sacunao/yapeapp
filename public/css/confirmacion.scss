@@ -1,2 +1,41 @@
-@import "variables"
-@import "mixins"
+@import "variables";
+@import "mixins";
+
+#modal1{
+	border-radius: 10px;
+	padding: 30px 30px;
+	div{
+		text-align: center;
+		div.circulo-modal{
+		width:70px;
+		height: 70px;
+		padding: 10px 0 0 0;
+		border-radius:100px;
+		border: 3px solid $color-green;
+		display: inline-block;
+			i{
+				color: $color-green;
+				font-size: 40px;
+				display: inline-block;
+			}
+		}
+		.titulo-modal{
+			@include fuente ($color-dark-gray, 14px, Arial, bold);
+		}
+		.texto-modal{
+			@include fuente ($color-dark-gray, 14px, Arial, normal);
+			margin-bottom: 20px;
+		}
+	}
+	.modal-footer{
+		text-align: center;
+		a{
+			display: inline-block;
+			margin: 0 25%;
+			i{
+				color: $color-light-gray;
+				font-size: 40px;
+			}
+		}
+	}	
+}

@@ -7,31 +7,23 @@
    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/listo.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
 	<header>
-		<h5>Detalle del Pago</h5>
+		<h6>Elige a quien pagar</h6>
 	</header>
-	<section class="listo-body">
+	 <section class="search">
+         <span class="fa fa-search"></span>
+         <input placeholder="Buscar">
+    </section>
+	<section class="listado">
 		<div class="container">
-			<div class="row">
-				<h2>Listo!</h2>
-				<p>Tu pago se realizó con éxito para</p>
-				<p><strong>FARFAN VALDIVIA EVELYN MILAGRO</strong></p>
-				<p>(@972380481)</p>
-			</div>
-			<div class="row">
-				<h6>Monto:</h6>
-				<span>S/. </span><span class="monto">0.10</span>
-			</div>
-		</div>
+			<div id="la"></div>
+        </div>
 	</section>
-	<hr>
-	<section>
-		
-	</section>
-
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
 	<script>
       // Initialize Firebase
@@ -39,13 +31,12 @@
         apiKey: "AIzaSyAfK9iza7OO-H_rglgCOj6XJtY9Aqv1Hso",
         authDomain: "yapedemo.firebaseapp.com",
         databaseURL: "https://yapedemo.firebaseio.com",
-        storageBucket: "",
+        storageBucket: "yapedemo.appspot.com",
         messagingSenderId: "805473058962"
       };
       firebase.initializeApp(config);
     </script>
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
 </body>
 </html>
