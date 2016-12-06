@@ -1,7 +1,19 @@
 @import "_variables";
 @import "_mixis";
 
-footer{
-	background: black;
-	height: 20px;
+header{
+	background-color: $color-dark-purple;
+	margin: 0%;
+	h5{
+		color: $color-white;
+		text-align: center;
+		padding: 5%;
+		margin: 0%;
+	}
+}
+.listo-body{
+	text-align: center;
+	.monto{
+		font-size: 250%;
+	}
 }
