@@ -21,14 +21,26 @@ btnLogin.addEventListener("click", function(e){
     
 });
 
+
+//function usersObject(uid, name, phone) {
+//  // A post entry.
+//  var postData = {
+//    author: username,
+//    uid: uid,
+//    body: body,
+//    title: title,
+//    starCount: 0,
+//    authorPic: picture
+//  };
+
+//guardar tarjetas
+//  var newPostKey = firebase.database().ref().child(users').push().key;
+
+//  var updates = {};
+//  updates['/users/' + newPostKey] = postData;
+//  updates['/user/users' + uid + '/' + newPostKey] = postData;
 //
-//var contactTemplate = "";
-//    
-//
-//$(document).ready(function(){
-//    $.getJSON("http://localhost:3000/users.json", 
-//        function(response) {
-//            $("#···").html(plantilla
-//                             .replace("__nombre__", response.nombre)                   .replace("__apellido__", response.apellido));
-//        });
-//});
+//  return firebase.database().ref().update(updates);
+//}
+
+

@@ -29,8 +29,8 @@
           <form class="col s10 m6 l6 offset-l3 offset-m3 offset-s1">
             <div class="row center-align">
               <div class="input-field col s12">
-                <input id="icon_prefix" type="number" class="validate" placeholder="+51" maxlength=10>
-                <label for="icon_prefix">Teléfono</label>
+                <input id="icon_prefix" type="number" class="validate" min="0.10" step="0.10" max-lenght="5"/>
+                <label for="icon_prefix">Monto</label>
               </div>
             </div>
             <div class="row center-align">
@@ -41,7 +41,7 @@
             </div>
             <div class="row center-align">
               <div class="input-field col s12">
-                <a class="btn-floating btn-large waves-effect waves-light waves-amar btns waves-effect waves-light btn modal-close" href="#modal1"">SOLICITA PE</a>
+                <a class="btn-floating btn-large waves-effect waves-light waves-amar btns waves-effect waves-light btn modal-close" href="#modal1">SOLICITA PE</a>
               </div>
             </div>
           </form>
@@ -58,7 +58,7 @@
         <p class="texto-modal">Has solicitado un pago a {{name}} por {{monto}}</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">cancel</i></a>
+        <a id="close" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">cancel</i></a>
       </div>
     </div>
 
