@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Yape</title>
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="css/confirmacion.css">
+    <link rel="stylesheet" type="text/css" href="css/payment.css">
+  </head>
+  <body>
+    <nav class="lightpurple">
+      <div class="container">
+        <div class="nav-wrapper center-align">
+            <p>Solicitud de Pago</p>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align lemarg">
+            <h3>Nombre: {{name}}</h3>
+          </div>
+        </div>
+      </div>
+       <div class="container positioner">
+        <div class="row center-align login">
+          <form class="col s10 m6 l6 offset-l3 offset-m3 offset-s1">
+            <div class="row center-align">
+              <div class="input-field col s12">
+                <input id="icon_prefix" type="number" class="validate" placeholder="+51" maxlength=10>
+                <label for="icon_prefix">Teléfono</label>
+              </div>
+            </div>
+            <div class="row center-align">
+              <div class="input-field col s12">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Mensaje</label>
+              </div>
+            </div>
+            <div class="row center-align">
+              <div class="input-field col s12">
+                <a class="btn-floating btn-large waves-effect waves-light waves-amar btns waves-effect waves-light btn modal-close" href="#modal1"">SOLICITA PE</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>       
+    </section>
+
+    <div id="modal1" class="modal">
+      <div>
+        <div class="circulo-modal">
+          <i class="material-icons">done</i>
+        </div>
+        <p class="titulo-modal">SOLICITAR TRANSFERENCIA</p>
+        <p class="texto-modal">Has solicitado un pago a {{name}} por {{monto}}</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">cancel</i></a>
+      </div>
+    </div>
+
+    <script
+      src="//code.jquery.com/jquery-2.2.4.min.js"
+      crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+      <script src="js/modal.js"></script>
+  </body>
+</html>
