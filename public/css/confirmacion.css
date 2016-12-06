@@ -3,18 +3,38 @@ body {
 
 #modal1 {
   border-radius: 10px;
-  padding: 0 0 20px 0; }
-  #modal1 section {
-    width: 100%;
-    height: 100px;
-    background-color: #fbd43b;
-    position: relative; }
-  #modal1 .img {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    background-color: blue;
-    color: #fff; }
+  padding: 30px 30px; }
+  #modal1 div {
+    text-align: center; }
+    #modal1 div div.circulo-modal {
+      width: 70px;
+      height: 70px;
+      padding: 10px 0 0 0;
+      border-radius: 100px;
+      border: 3px solid #00c3a3;
+      display: inline-block; }
+      #modal1 div div.circulo-modal i {
+        color: #00c3a3;
+        font-size: 40px;
+        display: inline-block; }
+    #modal1 div .titulo-modal {
+      font-family: Arial;
+      font-size: 14px;
+      color: #727272;
+      font-weight: bold; }
+    #modal1 div .texto-modal {
+      font-family: Arial;
+      font-size: 14px;
+      color: #727272;
+      font-weight: normal;
+      margin-bottom: 20px; }
+  #modal1 .modal-footer {
+    text-align: center; }
+    #modal1 .modal-footer a {
+      display: inline-block;
+      margin: 0 25%; }
+      #modal1 .modal-footer a i {
+        color: #e6e7e8;
+        font-size: 40px; }
 
 /*# sourceMappingURL=confirmacion.css.map */
