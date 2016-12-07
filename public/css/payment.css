@@ -1,30 +1,12 @@
-.darkpurple {
-  background-color: #38052a;
-  height: 400em; }
-
 .lightpurple {
   background-color: #451e36; }
-
-.base {
-  margin-top: 3em; }
-
-a.show {
-  color: #FFF;
-  text-decoration: none; }
-
-.user {
-  width: 120px;
-  height: 120px; }
-
-.card-content {
-  padding-bottom: 3em; }
-
-.card {
-  background-color: #38052a !important; }
 
 .middle-icon {
   margin-top: 10px;
   text-align: right; }
+
+input.hugeletter {
+  font-size: 2em; }
 
 .btns {
   background-color: #fbd43b;

@@ -3,32 +3,38 @@
 
 .darkpurple{
 	background-color: $color-dark-purple;
+	padding: 2em 0;
 }
 
 .lightpurple{
 	background-color: $color-light-purple;
-	padding: 2em 0;
+	padding-bottom: 1.8em;
 }
 
-.base{
-	margin-top: 3em;
+.contiene{
+	margin: 0px !important;
 }
 
-a.show{
-	color: #FFF;
+hr.style {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #000 inset;
+}
+
+.show{
+	color: $color-green;
 	text-decoration: none;
+	line-height: 10px;
 }
-.user{
+
+.eye{
+	position: absolute;
+    color: $color-green;
+    margin: -2px -25px
+}
+.ussser{
 	width: 110px;
 	height: 110px;
-}
-
-.card-content{
-	padding-bottom: 3em;
-}
-
-.card{
-	background-color: $color-dark-purple !important;
 }
 
 .middle-icon{
@@ -37,27 +43,20 @@ a.show{
 	color: $color-green;
 }
 
-nav.lightpurple{
-	background-color: $color-light-purple;
-}
-
 .small{
 	line-height: 0px;
 	font-size: 12px;
 }
 
 .btns{
-	background-color: $color-yellow;
-	width: 8em !important;
-	border-radius: 50px !important;
+	font-size: 1.3em;
+	box-shadow: 1px 3px 1px $color-dark-purple;
 }
 
 .waves-effect.waves-amar{
-  background-color: $color-yellow;
-}
-
-a.btns{
-	font-size: 1.3em;
+  	background-color: $color-yellow;
+  	width: 8em !important;
+	border-radius: 50px !important;
 }
 
 .lemarg{
