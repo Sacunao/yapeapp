@@ -19,3 +19,11 @@ section{
 .btn{
 	display: inherit;
 }
+
+#email{
+	color:white;
+}
+
+#password{
+	color:white;
+}
