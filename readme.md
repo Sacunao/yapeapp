@@ -2,6 +2,12 @@
 
 [Yape](https://itunes.apple.com/pe/app/yape/id1147249919?mt=8) es una aplicación de celular, que te permite realizar pagos entre personas y a negocios que tengan la aplicación instalada de una manera **fácil, rápida y confiable**.
 
+##PROTOTIPO 
+
+Para poder usar está aplicación por favor ingresar el correo: sheila.aobregon@gmail.com y en la ocntraseña: pascual28.
+
+![alt text](http://1.1m.yt/WaxOjJ.png)
+
 
 ## Objetivo principal
 
@@ -11,7 +17,6 @@ Crear una función que ayude a impulsar la descarga de la aplicación [Yape](htt
 ## Objetivo secundario
 
 Crear una función que ayude al crecimiento de las transacciones entre los usuarios de la aplicación.  
-
 
 ## Usuarios
 
