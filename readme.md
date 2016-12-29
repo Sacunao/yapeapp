@@ -17,7 +17,6 @@ Crear una función que ayude al crecimiento de las transacciones entre los usuar
 
 Jóvenes universitarios y jóvenes con pequeños negocios.
 
-
 ## Getting Started
 
 Estos son los pasos y especificaciones para comenzar:

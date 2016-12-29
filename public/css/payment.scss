@@ -1,21 +1,40 @@
 @import "_variables";
 @import "_mixis";
 
+
+.darkpurple{
+	background-color: $color-dark-purple;
+	height: 400em;
+}
+
 .lightpurple{
 	background-color: $color-light-purple;
+}
+
+.base{
+	margin-top: 3em;
+}
+
+a.show{
+	color: #FFF;
+	text-decoration: none;
+}
+.user{
+	width: 120px;
+	height: 120px;
+}
+
+.card-content{
+	padding-bottom: 3em;
+}
+
+.card{
+	background-color: $color-dark-purple !important;
 }
 
 .middle-icon{
 	margin-top: 10px;
 	text-align: right;
-}
-
-input.hugeletter{
-	font-size:2em;
-}
-
-input.bigletter{
-	font-size:1.5em;
 }
 
 .btns{

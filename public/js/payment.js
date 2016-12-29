@@ -29,6 +29,7 @@ $(document).ready(function(){
         var amount = $("#monto").val();
         var message = $("#mensaje").val();
         transfer(amount, message);
+        window.localStorage.setItem("monto", amount);
     });
 
 
@@ -39,7 +40,7 @@ $(document).ready(function(){
 //            username: userName,
             monto: amount,
             mensaje: message
-        };
+        }
         // Get a key for a new Post.
         var newPostKey = firebase.database().ref().child('users/destinatarioUser/').push().key;
         // Write the new post's data simultaneously in the posts list and the user's post list.

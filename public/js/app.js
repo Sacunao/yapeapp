@@ -12,7 +12,7 @@ btnLogin.addEventListener("click", function(e){
   
      firebase.auth().signInWithEmailAndPassword(email,pass)
           .then(function(e){
-                window.location.href = "/init.html";
+            window.location.href = "/init.html";
             window.localStorage.setItem("user",e.email.replace(".","_").replace(".","_"));
          
     

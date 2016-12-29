@@ -16,11 +16,14 @@ section{
 	justify-content: center;
 }
 
-input{
-	color: white;
-	font-size: 1.4em !important;
-}
-
 .btn{
 	display: inherit;
+}
+
+#email{
+	color:white;
+}
+
+#password{
+	color:white;
 }
